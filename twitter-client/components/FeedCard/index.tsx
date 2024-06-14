@@ -23,16 +23,16 @@ const FeedCard: React.FC = () => {
             waters with our Demo Trading product?
           </p>
           <div className="flex gap-20 p-4 text-xl">
-            <div className="hover:bg-blue-400 rounded-full h-fit w-fit p-3">
+            <div className="hover:bg-blue-400 rounded-full h-fit w-fit p-3 transition-all">
               <BiMessageRounded />
             </div>
-            <div className="hover:bg-green-400 rounded-full h-fit w-fit p-3">
+            <div className="hover:bg-green-400 rounded-full h-fit w-fit p-3 transition-all">
               <FaRetweet />
             </div>
-            <div className="hover:bg-pink-500 rounded-full h-fit w-fit p-3">
+            <div className="hover:bg-pink-400 rounded-full h-fit w-fit p-3 transition-all">
               <FaRegHeart />
             </div>
-            <div className="hover:bg-blue-400 rounded-full h-fit w-fit p-3">
+            <div className="hover:bg-blue-400 rounded-full h-fit w-fit p-3 transition-all">
               <MdOutlineFileUpload />
             </div>
           </div>
